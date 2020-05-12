@@ -4,15 +4,15 @@ int main()
 {
     double precio, resultado;
     int cantidad;
-    char nombre, producto;
-    printf("Bienvenido, por favor ingrese su nombre \n");
-    cin >> nombre;
+    string producto;
     printf("Ingresa el producto que vas a comprar \n");
     cin >> producto;
-    printf("Ingrese la cantidad que compraras \n");
+    printf("Ingrese el precio del producto que compraras \n");
+    cin >> precio;
+    printf("Ingrese la cantidad que adquirira \n");
     cin >> cantidad;
-    resultado = cantidad*producto;
-    cout << nombre << " el total por la compra de " << producto << " con una cantidad de " << cantidad << " es de : " << resultado << "$" << endl;
+    resultado = cantidad*precio;
+    cout << "El total por la compra de " << producto << " con una cantidad de " << cantidad << " es de : " << resultado << "$" << endl;
     system("pause");
 
     return 0;
