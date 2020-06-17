@@ -14,9 +14,4 @@ int main(){
     {      
         cout << "Los numeros no son divisibles";
     }
-    
-
-    
-
-
 }
